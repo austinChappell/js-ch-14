@@ -25,8 +25,6 @@ var blueBall = new Ball('blue');
 //   ctx.fill();
 // };
 
-var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
-
 var moveBall = function() {
   var xOffset = Math.floor(Math.random() * 10) + 5;
   var yOffset = Math.floor(Math.random() * 10) + 5;
